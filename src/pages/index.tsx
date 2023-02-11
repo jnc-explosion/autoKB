@@ -14,7 +14,7 @@ export default function Home() {
       <Layout>
       <div className="flex w-screen px-6">
         <div className="flex flex-col space-y-4 justify-center items-center">
-          <h2 className="font-black p-8 border-2 rounded-lg dark:bg-gray-900 text-6xl">本日の時間割</h2>
+          <h2 className="font-black p-8 border-4 rounded-lg dark:bg-gray-900 text-6xl">本日の時間割</h2>
           <table className="table-fixed border-collapse border border-slate-500 rounded-lg items-center justify-center center">
             <thead>
               <tr className="border-4 border-slate-500 border-spacing-3 text-2xl bg-slate-200 dark:bg-slate-700">
@@ -66,12 +66,12 @@ export default function Home() {
             </tbody>
           </table>
           <div className="flex-none pt-6">
-            <button className="py-4 px-24 text-8xl text-blue-800 font-black border border-8 bg-green-500 rounded-full hover:bg-green-700 active:bg-purple-400">
+            <button className="py-4 px-24 text-8xl text-blue-800 font-black border border-8 bg-green-500 rounded-full hover:bg-green-700 active:bg-green-400">
               遅刻
             </button>
           </div>
           <div className="flex-none pb-4">
-            <button className="py-4 px-12 text-8xl text-yellow-300 font-black border border-8 bg-red-700 rounded-full hover:bg-red-600 active:rounded-none active:text-white active:bg-red-700 active:border-y-10 active:border-x-0 active:border-y-blue-600">
+            <button className="py-4 px-12 text-8xl text-yellow-300 font-black border border-8 bg-red-700 rounded-full hover:bg-red-600 active:bg-black active:text-red-800">
               飛ばす
             </button>
           </div>

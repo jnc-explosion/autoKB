@@ -14,10 +14,6 @@ export default function Header () {
             <span className="flex-none inline-block ml-10 mr-5 text-8xl font-black">自動木場</span>
             <span className="flex-initial inline-block text-4xl">自動出席管理システム</span>
           </div>
-          {/*<div className="flex w-screen px-80 py-5 mr-3 justify-between border-2 items-center">
-            {/*<span className="flex-none inline-block w-24 font-bold text-6xl">S.Koba</span>*/}
-            {/*<span className="flex-1 w-48 inline-block text-4xl p-10 border-2 rounded-lg">Words</span>*/}
-          {/*</div>*/}
         </div>
       </header>
     </div>

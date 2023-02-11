@@ -7,6 +7,7 @@ module.exports = {
       fontFamily: {
         inter: ["var(--f-inter)"],
         hmp: ["var(--f-hmp)"],
+        pepsi: ["var(--f-pepsi)"],
       },
     },
   },
