@@ -1,0 +1,9 @@
+.footerButton{
+  @tailwind.flex-auto;
+  @tailwind.inline-block;
+  @tailwind.mx-8;
+  @tailwind.py-10;
+  hover:@tailwind.border-x-4;
+  hover:@tailwind.text-lime-400;
+  focus:@tailwind.ring-0;
+}

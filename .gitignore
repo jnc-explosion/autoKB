@@ -6,8 +6,12 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+kovar/*
+
 /build
 /out
 
 /.next
 /next-env.d.ts
+
+.env
