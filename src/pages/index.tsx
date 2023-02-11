@@ -36,12 +36,12 @@ export default function Home() {
               </tr>
               <tr className={tableSt}>
                 <td className="p-4">3</td>
-                <td className="pl-8">応用数学XVI</td>
+                <td className="pl-8">応用笠井数学</td>
                 <td className="px-8">笠井正三郎</td>
               </tr>
               <tr className={tableSt}>
                 <td className="p-4">4</td>
-                <td className="pl-8">PP(ﾊﾟﾙｽﾊﾟﾜｰ)</td>
+                <td className="pl-8">いいいですか？</td>
                 <td className="px-8">橋本幸好</td>
               </tr>
               <tr className={tableSt}>
@@ -60,9 +60,9 @@ export default function Home() {
           <h2 className="flex-none p-8 rounded-t-lg dark:bg-zinc-600 text-6xl font-black">次の教科の概要</h2>
           <table className="flex-auto table-auto">
             <tbody>
-              <tr><td className="text-3xl">欠課時数</td><td className="text-7xl ml-10 font-black text-red-600">39</td></tr>
+              <tr><td className="text-3xl">欠課時数</td><td className="text-7xl ml-10 font-black text-red-600">39<span className="font-normal text-gray-400 text-4xl">/40</span></td></tr>
               <tr><td className="text-3xl">残り猶予</td><td className="text-7xl ml-10 font-black text-red-600">1</td></tr>
-              <tr><td className="text-3xl">現在遅刻</td><td className="text-7xl ml-10 font-black text-red-600">2</td></tr>
+              <tr><td className="text-3xl">現在遅刻</td><td className="text-7xl ml-10 font-black text-red-600">2<span className="font-normal text-gray-400 text-4xl">/3</span></td></tr>
             </tbody>
           </table>
           <div className="flex-none pt-6">
