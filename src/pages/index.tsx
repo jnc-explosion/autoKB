@@ -12,7 +12,7 @@ export default function Home() {
         <title>autoKB - ホーム</title>
       </Head>
       <Layout>
-      <div className="flex w-screen px-6">
+      <div className="flex w-screen justify-center px-6">
         <div className="flex flex-col space-y-4 justify-center items-center">
           <h2 className="font-black p-8 border-4 rounded-lg dark:bg-gray-900 text-6xl">本日の時間割</h2>
           <table className="table-fixed border-collapse border border-slate-500 rounded-lg items-center justify-center center">
