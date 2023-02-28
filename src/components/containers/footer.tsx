@@ -12,7 +12,7 @@ export default function Footer () {
   return (
     <div>
       <footer className="fixed bottom-0 z-30 place-content-center text-black dark:text-white" /*style="background-color: #0a4275;"*/>
-        <div className="flex w-screen justify-center items-center 2xl:h-30 h-40 2xl:text-4xl text-4xl bg-slate-400 dark:bg-black">
+        <div className="flex w-screen justify-center items-center 2xl:h-30 h-40 2xl:text-6xl text-4xl bg-slate-400 dark:bg-black">
           <button type="button" className={buttonSt}>
             ホーム
           </button>
